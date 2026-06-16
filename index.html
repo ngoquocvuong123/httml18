@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Trang giới thiệu cá nhân - Nguyễn Văn An, sinh viên lập trình web" />
+  <title>Nguyễn Văn An | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS riêng -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">VA<span>.</span></a>
+
+      <!-- NAV -->
+      <nav id="main-nav" role="navigation" aria-label="Menu chính">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">Về tôi</a></li>
+          <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+          <li><a href="#projects" class="nav-link">Dự án</a></li>
+          <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+
+          <div class="hero-content">
+            <p class="hero-eyebrow">Sinh viên · Web Developer</p>
+            <h1 id="hero-heading" class="hero-name">Nguyễn Văn An</h1>
+            <p class="hero-role">
+              Học tại <strong>Trường Đại học XYZ</strong> · Lớp Web01 · Khóa 2023
+            </p>
+            <p class="hero-desc">
+              Mình là sinh viên năm 2 chuyên ngành Công nghệ Thông tin, đam mê xây dựng
+              các ứng dụng web hiện đại và tìm hiểu về lập trình front-end.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">Xem dự án →</a>
+              <a href="#contact" class="btn btn-outline">Liên hệ tôi</a>
+            </div>
+          </div>
+
+          <figure class="hero-avatar" aria-label="Ảnh đại diện">
+            🧑‍💻
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="about-heading" class="section-title">Về tôi</h2>
+          <p class="section-desc">Thông tin cá nhân và học tập</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-info reveal">
+            <p>
+              Mình là <strong>Nguyễn Văn An</strong>, hiện đang theo học chuyên ngành
+              Công nghệ Thông tin tại Trường Đại học XYZ. Mình có niềm đam mê với
+              lập trình web và luôn cố gắng học hỏi những công nghệ mới.
+            </p>
+            <p>
+              Ngoài giờ học, mình thích đọc sách kỹ thuật, tham gia các hackathon
+              và đóng góp cho các dự án mã nguồn mở.
+            </p>
+
+            <dl class="info-list">
+              <div class="info-item">
+                <dt class="info-label">Trường</dt>
+                <dd class="info-value">Đại học XYZ</dd>
+              </div>
+              <div class="info-item">
+                <dt class="info-label">Lớp</dt>
+                <dd class="info-value">Web01 — Khóa 2023</dd>
+              </div>
+              <div class="info-item">
+                <dt class="info-label">Email</dt>
+                <dd class="info-value">vanan@email.com</dd>
+              </div>
+              <div class="info-item">
+                <dt class="info-label">GitHub</dt>
+                <dd class="info-value">
+                  <a href="https://github.com/vanan" target="_blank" rel="noopener">github.com/vanan</a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="about-stats reveal">
+            <div class="stats-grid">
+              <div class="stat-card">
+                <p class="stat-number">3+</p>
+                <p class="stat-label">Dự án hoàn thành</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-number">2</p>
+                <p class="stat-label">Năm học lập trình</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-number">5+</p>
+                <p class="stat-label">Công nghệ đã học</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-number">GPA<br /><span style="font-size:1.2rem">3.5</span></p>
+                <p class="stat-label">Điểm trung bình</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="skills-heading" class="section-title">Kỹ năng</h2>
+          <p class="section-desc">Các công nghệ mình đang học và sử dụng</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-category reveal">
+            <h3 class="skill-category-title">Front-end</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag">HTML5</li>
+              <li class="skill-tag">CSS3</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">Responsive Design</li>
+            </ul>
+          </article>
+
+          <article class="skill-category reveal">
+            <h3 class="skill-category-title">Back-end</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag">Node.js</li>
+              <li class="skill-tag">PHP</li>
+              <li class="skill-tag">MySQL</li>
+              <li class="skill-tag">REST API</li>
+            </ul>
+          </article>
+
+          <article class="skill-category reveal">
+            <h3 class="skill-category-title">Công cụ</h3>
+            <ul class="skill-tags" role="list">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">VS Code</li>
+              <li class="skill-tag">Figma</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="projects-heading" class="section-title">Dự án</h2>
+          <p class="section-desc">Một số bài tập và dự án cá nhân đã thực hiện</p>
+        </header>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <p class="project-number">Mini-project 01</p>
+            <h3 class="project-title">Trang Web Cá Nhân</h3>
+            <p class="project-desc">
+              Trang giới thiệu bản thân sử dụng HTML5 semantic và CSS3,
+              có responsive layout cho cả mobile và desktop.
+            </p>
+            <ul class="project-tech" role="list">
+              <li><span>HTML5</span></li>
+              <li><span>CSS3</span></li>
+              <li><span>Semantic</span></li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/vanan/mini-project-1" class="project-link" target="_blank" rel="noopener">
+                ↗ GitHub
+              </a>
+              <a href="https://vanan.github.io/mini-project-1" class="project-link" target="_blank" rel="noopener">
+                🌐 Live
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-number">Mini-project 02</p>
+            <h3 class="project-title">Todo List App</h3>
+            <p class="project-desc">
+              Ứng dụng quản lý công việc với JavaScript thuần, hỗ trợ
+              thêm, sửa, xóa và lọc task theo trạng thái.
+            </p>
+            <ul class="project-tech" role="list">
+              <li><span>JavaScript</span></li>
+              <li><span>DOM</span></li>
+              <li><span>LocalStorage</span></li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/vanan/todo-app" class="project-link" target="_blank" rel="noopener">
+                ↗ GitHub
+              </a>
+              <a href="https://vanan.github.io/todo-app" class="project-link" target="_blank" rel="noopener">
+                🌐 Live
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-number">Mini-project 03</p>
+            <h3 class="project-title">Semantic Profile Page</h3>
+            <p class="project-desc">
+              Trang portfolio này! Xây dựng với semantic HTML5 đầy đủ:
+              header, nav, main, section, footer — CSS riêng file.
+            </p>
+            <ul class="project-tech" role="list">
+              <li><span>HTML5</span></li>
+              <li><span>CSS3</span></li>
+              <li><span>GitHub Pages</span></li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/vanan/mini-project-3" class="project-link" target="_blank" rel="noopener">
+                ↗ GitHub
+              </a>
+              <a href="https://vanan.github.io/mini-project-3" class="project-link" target="_blank" rel="noopener">
+                🌐 Live
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-number">Bài tập</p>
+            <h3 class="project-title">Landing Page Clone</h3>
+            <p class="project-desc">
+              Clone trang landing page của một sản phẩm thực tế,
+              luyện tập pixel-perfect CSS và layout kỹ thuật.
+            </p>
+            <ul class="project-tech" role="list">
+              <li><span>HTML5</span></li>
+              <li><span>CSS Grid</span></li>
+              <li><span>Flexbox</span></li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/vanan/landing-clone" class="project-link" target="_blank" rel="noopener">
+                ↗ GitHub
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="contact-heading" class="section-title">Liên hệ</h2>
+          <p class="section-desc">Kết nối với mình qua các kênh bên dưới</p>
+        </header>
+
+        <div class="contact-grid">
+
+          <div class="contact-info reveal">
+            <p>
+              Bạn có thể liên lạc với mình qua email hoặc các mạng xã hội.
+              Mình luôn sẵn sàng trao đổi về học tập, dự án hay cơ hội cộng tác.
+            </p>
+
+            <nav class="contact-links" aria-label="Liên kết liên hệ">
+              <a href="mailto:vanan@email.com" class="contact-link-item">
+                <span class="contact-icon" aria-hidden="true">✉️</span>
+                vanan@email.com
+              </a>
+              <a href="https://github.com/vanan" class="contact-link-item" target="_blank" rel="noopener">
+                <span class="contact-icon" aria-hidden="true">🐙</span>
+                github.com/vanan
+              </a>
+              <a href="https://linkedin.com/in/vanan" class="contact-link-item" target="_blank" rel="noopener">
+                <span class="contact-icon" aria-hidden="true">💼</span>
+                linkedin.com/in/vanan
+              </a>
+              <a href="https://facebook.com/vanan" class="contact-link-item" target="_blank" rel="noopener">
+                <span class="contact-icon" aria-hidden="true">📘</span>
+                facebook.com/vanan
+              </a>
+            </nav>
+          </div>
+
+          <!-- Form liên hệ -->
+          <div class="contact-form reveal" role="complementary" aria-label="Form liên hệ">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Họ tên</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                class="form-input"
+                placeholder="Nguyễn Văn B"
+                autocomplete="name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                class="form-input"
+                placeholder="email@example.com"
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Lời nhắn</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                class="form-textarea"
+                placeholder="Xin chào! Mình muốn..."
+              ></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" id="send-btn" style="width:100%;justify-content:center">
+              Gửi lời nhắn ✉️
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        © 2024 Nguyễn Văn An · Mini-project 3 · Lớp Web01
+      </p>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="https://github.com/vanan" target="_blank" rel="noopener">GitHub</a>
+        <a href="#hero">↑ Lên đầu</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- JS riêng -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
