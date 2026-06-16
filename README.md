@@ -2,7 +2,7 @@
 
 Trang giới thiệu cá nhân xây dựng bằng **semantic HTML5** và **CSS3** thuần — không dùng framework.
 
-🌐 **Live demo:** [vanan.github.io/mini-project-3](https://vanan.github.io/mini-project-3)
+🌐 **Live demo:** [https://ngoquocvuong123.github.io/httml18/index.html)
 
 ---
 
